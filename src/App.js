@@ -4,6 +4,7 @@ import ProgramsComponent from './components/programs-component/programs-componen
 import ReasonsComponent from './components/reasons-component/reasons-component';
 import MemershipsComponent from './components/memberships-component/memerships-component';
 import ReviewsComponent from './components/reviews-component/reviews-component';
+import JoinComponent from './components/join-component/join-component';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ReasonsComponent />
       <MemershipsComponent />
       <ReviewsComponent />
+      <JoinComponent />
     </>
   );
 }

@@ -1,0 +1,57 @@
+.join-container {
+    display: flex;
+    padding: 2rem;
+    gap: 10rem;
+}
+
+.join-left-side-content {
+    flex: 1 1;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.join-hr {
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
+}
+
+.join-header {
+    display: flex;
+    gap: 1rem;
+}
+
+.join-right-side-content {
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.join-form {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem 2rem;
+    background: gray;
+}
+
+.join-form>input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+::placeholder {
+    color: black;
+}
+
+.join-btn {
+    background-color: var(--orange);
+    color: white;
+
+}
