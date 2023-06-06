@@ -25,7 +25,7 @@ const HeroComponent = () => {
                 </div>
                 <div className="hero-figures">
                     <div className='figure-box'>
-                        <span className='figure-title'>+200</span>
+                        <span className='figure-title'>+300</span>
                         <span className='figure-subtitle'>Experts</span>
                     </div>
                     <div className='figure-box'>
