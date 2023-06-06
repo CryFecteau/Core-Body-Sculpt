@@ -5,6 +5,7 @@ import ReasonsComponent from './components/reasons-component/reasons-component';
 import MemershipsComponent from './components/memberships-component/memerships-component';
 import ReviewsComponent from './components/reviews-component/reviews-component';
 import JoinComponent from './components/join-component/join-component';
+import FooterComponent from './components/footer-component/footer-component';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MemershipsComponent />
       <ReviewsComponent />
       <JoinComponent />
+      <FooterComponent />
     </>
   );
 }
