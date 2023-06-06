@@ -1,15 +1,21 @@
 import React from 'react'
 import './hero.component.css'
 import HeaderComponent from '../header-component/header-component';
-
+import { motion } from 'framer-motion';
 const HeroComponent = () => {
+    const transition = { type: 'spring', duration: 3 };
     return (
         <div className="hero-container">
             <div className="app-blur hero-blur"></div>
             <div className="left-hero-content">
                 <HeaderComponent />
                 <div className="hero-ad-container">
-                    <div className='ad-background'></div>
+                    <motion.div
+                        className='ad-background'
+                        initial={{ left: '-1rem' }}
+                        whileInView={{ left: '300px' }}
+                        transition={{ ...transition, type: 'tween' }}
+                    ></motion.div>
                     <span>Empower your body, uplift your mind.</span>
                 </div>
                 <div className="hero-heading-container">
@@ -45,20 +51,36 @@ const HeroComponent = () => {
             </div>
             <div className="right-hero-content">
                 <button id='hero-join-btn' className="app-btn">Join Now</button>
-                <div className="hero-right-img">
+                <motion.div
+                    className="hero-right-img"
+                    initial={{ right: '-1rem' }}
+                    whileInView={{ right: '4rem' }}
+                    transition={{ ...transition }}
+                >
                     <img id='right-img' src="https://via.placeholder.com/200" alt="hero-img" />
                     <span id='img-top-text'>Words</span>
                     <span id='img-bottom-text'>Words</span>
-                </div>
+                </motion.div>
                 <img id='center-img' src="https://via.placeholder.com/500" alt="hero-img" />
-                <img id='left-img' src="https://via.placeholder.com/500" alt="hero-img" />
-                <div className="hero-tip-container">
+                <motion.img
+                    initial={{ right: '11rem' }}
+                    whileInView={{ right: '20rem' }}
+                    transition={{ ...transition }}
+                    id='left-img'
+                    src="https://via.placeholder.com/500"
+                    alt="hero-img" />
+                <motion.div
+                    className="hero-tip-container"
+                    initial={{ right: '37rem' }}
+                    whileInView={{ right: '28rem' }}
+                    transition={{ ...transition }}
+                >
                     <img id='tip-img' src="https://via.placeholder.com/50" alt="tip-img" />
                     <div className="tip-text">
                         <span id='tip-title'>Tip of the day</span>
                         <span id='tip-subtitle'>Words</span>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </div>
     )
