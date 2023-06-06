@@ -31,3 +31,19 @@
     display: flex;
     justify-content: center;
 }
+
+.footer-blur-1 {
+    bottom: 0;
+    right: 15%;
+    width: 26rem;
+    height: 26rem;
+    filter: blur(200px);
+}
+
+.footer-blur-2 {
+    bottom: 0;
+    left: 15%;
+    width: 26rem;
+    height: 26rem;
+    filter: blur(200px);
+}

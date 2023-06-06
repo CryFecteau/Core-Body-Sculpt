@@ -4,6 +4,7 @@ import './memerships-component.css';
 export default function MemershipsComponent() {
     return (
         <div className='memberships-container'>
+            <div className="app-blur membership-blur"></div>
             <div className='memberships-header'>
                 <span className='app-stroke-text'>Transform Your</span>
                 <span>Body And Mind</span>

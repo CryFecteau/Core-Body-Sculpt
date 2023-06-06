@@ -8,6 +8,15 @@
     font-style: italic;
 }
 
+.membership-blur {
+    position: absolute;
+    width: 32rem;
+    height: 23rem;
+    top: 12rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .memberships-container {
     margin-top: -4rem;
     padding: 0 2rem;

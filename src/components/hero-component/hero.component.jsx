@@ -5,6 +5,7 @@ import HeaderComponent from '../header-component/header-component';
 const HeroComponent = () => {
     return (
         <div className="hero-container">
+            <div className="app-blur hero-blur"></div>
             <div className="left-hero-content">
                 <HeaderComponent />
                 <div className="hero-ad-container">

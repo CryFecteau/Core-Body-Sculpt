@@ -15,6 +15,8 @@ export default function FooterComponent() {
                     <img src="https://via.placeholder.com/50" alt="footer-img" />
                 </div>
             </div>
+            <div className="app-blur footer-blur-1"></div>
+            <div className="app-blur footer-blur-2"></div>
         </div>
     )
 }
