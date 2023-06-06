@@ -1,0 +1,71 @@
+.memberships-header {
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.memberships-container {
+    margin-top: -4rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+}
+
+.memberships {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.membership-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 15rem;
+}
+
+.membership-card:nth-child(2) {
+    transform: scale(1.1);
+}
+
+.membership-card>img {
+    width: 2rem;
+}
+
+.membership-name {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.membership-price {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.membership-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.feature>img {
+    width: 1rem;
+}
+
+.benifits-box {
+    font-size: .8rem;
+}

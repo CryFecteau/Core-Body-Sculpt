@@ -3,6 +3,7 @@ import './App.css';
 import HeroComponent from './components/hero-component/hero.component';
 import ProgramsComponent from './components/programs-component/programs-component';
 import ReasonsComponent from './components/reasons-component/reasons-component';
+import MemershipsComponent from './components/memberships-component/memerships-component';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroComponent />
       <ProgramsComponent />
       <ReasonsComponent />
+      <MemershipsComponent />
     </>
   );
 }
