@@ -1,0 +1,70 @@
+.reviews-container {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.reviews-left-side-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    text-transform: uppercase;
+    gap: 2rem;
+}
+
+.reviews-header {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.review {
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.reviews-right-side-content {
+    flex: 1 1;
+    position: relative;
+}
+
+.client-img {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+
+.review-border {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid var(--orange);
+    right: 9rem;
+    top: 0.9rem;
+}
+
+.review-background {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    right: 7rem;
+    top: 4rem;
+    background: var(--orange);
+}
+
+.review-arrows {
+    position: absolute;
+    gap: 1rem;
+    display: flex;
+    bottom: 1rem;
+    left: 3rem;
+}
+
+.review-arrows>img {
+    width: 1.5rem;
+    cursor: pointer;
+}
