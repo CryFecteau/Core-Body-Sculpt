@@ -1,0 +1,61 @@
+.programs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.programs-header-container {
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+.programs-categories-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.programs-category {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    gap: 1rem;
+    padding: 2rem;
+    color: white;
+    justify-content: space-between;
+}
+
+.programs-category:hover {
+    background: var(--darkTeal);
+    cursor: pointer;
+}
+
+.category-icon {
+    width: 2rem;
+}
+
+.category-heading {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.category-detail {
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+.join-now-btn {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.join-now-btn>img {
+    width: 1rem;
+}
