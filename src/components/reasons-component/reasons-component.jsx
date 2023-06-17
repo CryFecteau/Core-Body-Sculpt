@@ -21,7 +21,7 @@ export default function ReasonsComponent() {
                     </div>
                     <div className='reason-detail-box'>
                         <img src="https://via.placeholder.com/50" alt="reasons-img" />
-                        <span className='reason-detail'>+100 Mental Health Coaches</span>
+                        <span className='reason-detail'>+125 Mental Health Coaches</span>
                     </div>
                     <div className='reason-detail-box'>
                         <img src="https://via.placeholder.com/50" alt="reasons-img" />

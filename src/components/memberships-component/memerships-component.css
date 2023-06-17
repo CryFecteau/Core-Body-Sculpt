@@ -18,8 +18,8 @@
 }
 
 .memberships-container {
-    margin-top: -4rem;
-    padding: 0 2rem;
+    /* margin-top: -4rem; */
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -39,6 +39,7 @@
     gap: 2rem;
     padding: 1.5rem;
     width: 15rem;
+    background: goldenrod;
 }
 
 .membership-card:nth-child(2) {

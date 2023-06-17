@@ -9,6 +9,7 @@ export default function ProgramsComponent() {
                 <span>Fitness</span>
                 <span className='app-stroke-text'>Goals With Us</span>
             </div>
+            <span className='programs-subheader'>Find a program that fits you</span>
             <div className="programs-categories-container">
                 <div className="programs-category">
                     <img className='category-icon' src="https://via.placeholder.com/50" alt="program-img" />

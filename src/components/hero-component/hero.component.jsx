@@ -13,7 +13,7 @@ const HeroComponent = () => {
                     <motion.div
                         className='ad-background'
                         initial={{ left: '-1rem' }}
-                        whileInView={{ left: '300px' }}
+                        whileInView={{ left: '310px' }}
                         transition={{ ...transition, type: 'tween' }}
                     ></motion.div>
                     <span>Empower your body, uplift your mind.</span>
@@ -27,16 +27,16 @@ const HeroComponent = () => {
                         <span>Inner Strength</span>
                     </div>
                     <div className="hero-phrase">
-                        <span>In here, we believe that a healthy mind is the foundation of a healthy body.</span>
+                        <span>We believe that a healthy mind is the foundation of a healthy body.</span>
                     </div>
                 </div>
                 <div className="hero-figures">
                     <div className='figure-box'>
-                        <span className='figure-title'>+300</span>
+                        <span className='figure-title'>+275</span>
                         <span className='figure-subtitle'>Experts</span>
                     </div>
                     <div className='figure-box'>
-                        <span className='figure-title'>+1500</span>
+                        <span className='figure-title'>+1549</span>
                         <span className='figure-subtitle'>Members Joined</span>
                     </div>
                     <div className='figure-box'>
@@ -50,16 +50,17 @@ const HeroComponent = () => {
                 </div>
             </div>
             <div className="right-hero-content">
-                <button id='hero-join-btn' className="app-btn">Join Now</button>
+                {/* <button id='hero-join-btn' className="app-btn">View Plans</button> */}
                 <motion.div
                     className="hero-right-img"
-                    initial={{ right: '-1rem' }}
-                    whileInView={{ right: '4rem' }}
+                    initial={{ right: '-1rem', top: '3rem' }}
+                    whileInView={{ right: '3rem' }}
                     transition={{ ...transition }}
                 >
                     <img id='right-img' src="https://via.placeholder.com/200" alt="hero-img" />
-                    <span id='img-top-text'>Words</span>
-                    <span id='img-bottom-text'>Words</span>
+                    <span id='img-top-text'>Mind</span>
+                    <span id='img-middle-text'>over</span>
+                    <span id='img-bottom-text'>Matter</span>
                 </motion.div>
                 <img id='center-img' src="https://via.placeholder.com/500" alt="hero-img" />
                 <motion.img
@@ -77,8 +78,8 @@ const HeroComponent = () => {
                 >
                     <img id='tip-img' src="https://via.placeholder.com/50" alt="tip-img" />
                     <div className="tip-text">
-                        <span id='tip-title'>Tip of the day</span>
-                        <span id='tip-subtitle'>Words</span>
+                        <span id='tip-title'>Studies have shown:</span>
+                        <span id='tip-subtitle'>Prioritizing mental and physical health, creates a higher success rate in enhancing overall well-being. </span>
                     </div>
                 </motion.div>
             </div>

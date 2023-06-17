@@ -14,20 +14,20 @@ export default function MemershipsComponent() {
             <div className="memberships">
                 <div className="membership-card">
                     <img src="https://via.placeholder.com/50" alt="membership-img" />
-                    <span className='membership-name'>Name Here</span>
-                    <span className='membership-price'>$ 99</span>
+                    <span className='membership-name'>Starter Membership</span>
+                    <span className='membership-price'>$ 34.99</span>
                     <div className='membership-features'>
                         <div className='feature'>
                             <img src="https://via.placeholder.com/50" alt="feature-img" />
-                            <span className='feature-detail'>Feature 1</span>
+                            <span className='feature-detail'>24/7 access to all locations</span>
                         </div>
                         <div className='feature'>
                             <img src="https://via.placeholder.com/50" alt="feature-img" />
-                            <span className='feature-detail'>Feature 2</span>
+                            <span className='feature-detail'>Consultaion with a mental health coach</span>
                         </div>
                         <div className='feature'>
                             <img src="https://via.placeholder.com/50" alt="feature-img" />
-                            <span className='feature-detail'>Feature 3</span>
+                            <span className='feature-detail'>Access to virtual workout library</span>
                         </div>
                     </div>
                     <div className='benifits-box'>
@@ -37,20 +37,20 @@ export default function MemershipsComponent() {
                 </div>
                 <div className="membership-card">
                     <img src="https://via.placeholder.com/50" alt="membership-img" />
-                    <span className='membership-name'>Name Here</span>
-                    <span className='membership-price'>$ 99</span>
+                    <span className='membership-name'>Pro Membership</span>
+                    <span className='membership-price'>$ 54.99</span>
                     <div className='membership-features'>
                         <div className='feature'>
                             <img src="https://via.placeholder.com/50" alt="feature-img" />
-                            <span className='feature-detail'>Feature 1</span>
+                            <span className='feature-detail'>Monthly nutrition guidance</span>
                         </div>
                         <div className='feature'>
                             <img src="https://via.placeholder.com/50" alt="feature-img" />
-                            <span className='feature-detail'>Feature 2</span>
+                            <span className='feature-detail'>Consultaion with both mental and physical health coach</span>
                         </div>
                         <div className='feature'>
                             <img src="https://via.placeholder.com/50" alt="feature-img" />
-                            <span className='feature-detail'>Feature 3</span>
+                            <span className='feature-detail'>Unlimited guest passes</span>
                         </div>
                     </div>
                     <div className='benifits-box'>
@@ -60,20 +60,20 @@ export default function MemershipsComponent() {
                 </div>
                 <div className="membership-card">
                     <img src="https://via.placeholder.com/50" alt="membership-img" />
-                    <span className='membership-name'>Name Here</span>
-                    <span className='membership-price'>$ 99</span>
+                    <span className='membership-name'>Premium Membership</span>
+                    <span className='membership-price'>$ 99.99</span>
                     <div className='membership-features'>
                         <div className='feature'>
                             <img src="https://via.placeholder.com/50" alt="feature-img" />
-                            <span className='feature-detail'>Feature 1</span>
+                            <span className='feature-detail'>VIP access to spa and wellness services</span>
                         </div>
                         <div className='feature'>
                             <img src="https://via.placeholder.com/50" alt="feature-img" />
-                            <span className='feature-detail'>Feature 2</span>
+                            <span className='feature-detail'>10% discount on merchandise</span>
                         </div>
                         <div className='feature'>
                             <img src="https://via.placeholder.com/50" alt="feature-img" />
-                            <span className='feature-detail'>Feature 3</span>
+                            <span className='feature-detail'>Exclusive access to fitness events, retreats, and more</span>
                         </div>
                     </div>
                     <div className='benifits-box'>

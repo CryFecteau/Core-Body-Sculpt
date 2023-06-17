@@ -12,7 +12,8 @@
     list-style: none;
     display: flex;
     gap: 2rem;
-
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .header-menu>li:hover {

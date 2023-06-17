@@ -36,21 +36,28 @@
     display: flex;
     gap: 3rem;
     padding: 1rem 2rem;
+    /* width: 100%; */
     background: gray;
 }
 
 .join-form>input {
+    flex: 2;
     background-color: transparent;
     border: none;
     outline: none;
     color: black;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 ::placeholder {
     color: black;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .join-btn {
+    flex: 1;
     background-color: var(--orange);
     color: white;
 

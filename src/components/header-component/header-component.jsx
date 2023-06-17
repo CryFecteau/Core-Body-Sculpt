@@ -7,10 +7,10 @@ const HeaderComponent = () => {
             <img className='header-logo' src="https://via.placeholder.com/150" alt="logo" />
             <ul className="header-menu">
                 <li>Home</li>
+                <li>Programs</li>
                 <li>About</li>
-                <li>Services</li>
-                <li>Contact</li>
-                <li>Blog</li>
+                <li>Memberships</li>
+                <li>Reviews</li>
             </ul>
         </div>
     )
