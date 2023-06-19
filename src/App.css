@@ -6,6 +6,11 @@
   --yellow: #faab36;
   --orange: #f78104;
   --darkOrange: #fd5901;
+  --boxShadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+body {
+  letter-spacing: 1px;
 }
 
 .App {
@@ -13,6 +18,10 @@
   flex-direction: column;
   gap: 6rem;
   overflow: hidden;
+  background-color: #3c3f45;
+  color: white;
+  mix-blend-mode: overlay;
+  padding: 0 5rem;
 }
 
 ::-webkit-scrollbar {
@@ -21,7 +30,8 @@
 
 .app-stroke-text {
   color: transparent;
-  -webkit-text-stroke: 1px var(--black);
+  -webkit-text-stroke: 1px white;
+  z-index: 5;
 }
 
 .app-btn {
@@ -34,6 +44,7 @@
   font-weight: bold;
   border: 4px solid transparent;
   transition: 300ms all;
+  z-index: 1;
 }
 
 .app-btn:hover {

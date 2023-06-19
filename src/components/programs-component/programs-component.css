@@ -36,6 +36,7 @@
     padding: 2rem;
     color: white;
     justify-content: space-between;
+    box-shadow: var(--boxShadow);
 }
 
 .programs-category:hover {
@@ -44,7 +45,7 @@
 }
 
 .category-icon {
-    width: 2rem;
+    font-size: 2rem;
 }
 
 .category-heading {
@@ -60,7 +61,11 @@
 .join-now-btn {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: .5rem;
+}
+
+.btn-icon {
+    padding-top: 5px;
 }
 
 .join-now-btn>img {

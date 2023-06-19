@@ -37,7 +37,8 @@
     gap: 3rem;
     padding: 1rem 2rem;
     /* width: 100%; */
-    background: gray;
+    background: var(--lightTeal);
+    box-shadow: var(--boxShadow);
 }
 
 .join-form>input {
@@ -58,7 +59,7 @@
 
 .join-btn {
     flex: 1;
-    background-color: var(--orange);
-    color: white;
+    border: solid 4px var(--orange);
+    background-color: white;
 
 }

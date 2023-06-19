@@ -64,7 +64,11 @@
     left: 3rem;
 }
 
-.review-arrows>img {
-    width: 1.5rem;
+.review-arrows>span {
+    font-size: 1.5rem;
     cursor: pointer;
+}
+
+#left-arrow {
+    transform: scaleX(-1);
 }

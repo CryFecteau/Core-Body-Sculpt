@@ -1,5 +1,7 @@
 import React from 'react'
 import './footer-component.css'
+import Logo from '../../assets/LogoO.png';
+import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 export default function FooterComponent() {
     return (
@@ -7,12 +9,12 @@ export default function FooterComponent() {
             <hr className='footer-hr' />
             <div className='footer-content'>
                 <div className="footer-social-media">
-                    <img src="https://via.placeholder.com/50" alt="footer-img" />
-                    <img src="https://via.placeholder.com/50" alt="footer-img" />
-                    <img src="https://via.placeholder.com/50" alt="footer-img" />
+                    <BsFacebook className='media-icon' />
+                    <BsInstagram className='media-icon' />
+                    <BsTwitter className='media-icon' />
                 </div>
                 <div className="footer-logo">
-                    <img src="https://via.placeholder.com/50" alt="footer-img" />
+                    <img src={Logo} alt="footer-img" />
                 </div>
             </div>
             <div className="app-blur footer-blur-1"></div>

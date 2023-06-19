@@ -1,13 +1,14 @@
 import React from 'react'
 import './header-component.css'
+import Logo from '../../assets/LogoO.png';
 
 const HeaderComponent = () => {
     return (
-        <div className="header-container">
-            <img className='header-logo' src="https://via.placeholder.com/150" alt="logo" />
+        <div id='home' className="header-container">
+            <img className='header-logo' src={Logo} alt="logo" />
             <ul className="header-menu">
                 <li>Home</li>
-                <li>Programs</li>
+                <li >Programs</li>
                 <li>About</li>
                 <li>Memberships</li>
                 <li>Reviews</li>

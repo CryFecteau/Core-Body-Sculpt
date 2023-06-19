@@ -17,12 +17,12 @@
 }
 
 .footer-social-media {
+    font-size: 2rem;
     display: flex;
     gap: 4rem;
 }
 
-.footer-social-media>img {
-    width: 2rem;
+.media-icon:hover {
     cursor: pointer;
 }
 

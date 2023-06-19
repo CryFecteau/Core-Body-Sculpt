@@ -1,7 +1,12 @@
-import React from 'react'
-import './hero.component.css'
+import React from 'react';
+import './hero.component.css';
 import HeaderComponent from '../header-component/header-component';
 import { motion } from 'framer-motion';
+import HeroImg from '../../assets/hero1.png';
+import HeroBackImg from '../../assets/hero2.png';
+import { BsGraphUpArrow } from 'react-icons/bs';
+import { GiWeightLiftingUp } from 'react-icons/gi'
+
 const HeroComponent = () => {
     const transition = { type: 'spring', duration: 3 };
     return (
@@ -12,8 +17,8 @@ const HeroComponent = () => {
                 <div className="hero-ad-container">
                     <motion.div
                         className='ad-background'
-                        initial={{ left: '-1rem' }}
-                        whileInView={{ left: '310px' }}
+                        initial={{ left: '1rem' }}
+                        whileInView={{ left: '19.5rem' }}
                         transition={{ ...transition, type: 'tween' }}
                     ></motion.div>
                     <span>Empower your body, uplift your mind.</span>
@@ -50,25 +55,24 @@ const HeroComponent = () => {
                 </div>
             </div>
             <div className="right-hero-content">
-                {/* <button id='hero-join-btn' className="app-btn">View Plans</button> */}
                 <motion.div
                     className="hero-right-img"
                     initial={{ right: '-1rem', top: '3rem' }}
-                    whileInView={{ right: '3rem' }}
+                    whileInView={{ right: '3rem', top: '7rem' }}
                     transition={{ ...transition }}
                 >
-                    <img id='right-img' src="https://via.placeholder.com/200" alt="hero-img" />
-                    <span id='img-top-text'>Mind</span>
-                    <span id='img-middle-text'>over</span>
-                    <span id='img-bottom-text'>Matter</span>
+                    <span id='right-img'><GiWeightLiftingUp /></span>
+                    <span id='img-top-text'>Strong.</span>
+                    <span id='img-middle-text'>Fit.</span>
+                    <span id='img-bottom-text'>Unleashed.</span>
                 </motion.div>
-                <img id='center-img' src="https://via.placeholder.com/500" alt="hero-img" />
+                <img id='center-img' src={HeroImg} alt="hero-img" />
                 <motion.img
-                    initial={{ right: '11rem' }}
+                    initial={{ right: '10rem' }}
                     whileInView={{ right: '20rem' }}
                     transition={{ ...transition }}
                     id='left-img'
-                    src="https://via.placeholder.com/500"
+                    src={HeroBackImg}
                     alt="hero-img" />
                 <motion.div
                     className="hero-tip-container"
@@ -76,10 +80,10 @@ const HeroComponent = () => {
                     whileInView={{ right: '28rem' }}
                     transition={{ ...transition }}
                 >
-                    <img id='tip-img' src="https://via.placeholder.com/50" alt="tip-img" />
+                    <span id='tip-img'><BsGraphUpArrow /></span>
                     <div className="tip-text">
                         <span id='tip-title'>Studies have shown:</span>
-                        <span id='tip-subtitle'>Prioritizing mental and physical health, creates a higher success rate in enhancing overall well-being. </span>
+                        <span id='tip-subtitle'>Prioritizing both mental and physical health, creates a higher success rate in enhancing overall well-being. </span>
                     </div>
                 </motion.div>
             </div>

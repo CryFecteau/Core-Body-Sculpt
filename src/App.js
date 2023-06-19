@@ -9,7 +9,7 @@ import FooterComponent from './components/footer-component/footer-component';
 
 function App() {
   return (
-    <>
+    <div className='App'>
       <HeroComponent />
       <ProgramsComponent />
       <ReasonsComponent />
@@ -17,7 +17,7 @@ function App() {
       <ReviewsComponent />
       <JoinComponent />
       <FooterComponent />
-    </>
+    </div>
   );
 }
 
