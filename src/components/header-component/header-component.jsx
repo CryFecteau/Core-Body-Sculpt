@@ -3,15 +3,21 @@ import './header-component.css'
 import Logo from '../../assets/LogoO.png';
 
 const HeaderComponent = () => {
+    const handleMenuItemClick = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
-        <div id='home' className="header-container">
+        <div className="header-container">
             <img className='header-logo' src={Logo} alt="logo" />
             <ul className="header-menu">
-                <li>Home</li>
-                <li >Programs</li>
-                <li>About</li>
-                <li>Memberships</li>
-                <li>Reviews</li>
+                <li onClick={() => handleMenuItemClick('home')}>Home</li>
+                <li onClick={() => handleMenuItemClick('programs')}>Programs</li>
+                <li onClick={() => handleMenuItemClick('about')}>About</li>
+                <li onClick={() => handleMenuItemClick('memberships')}>Memberships</li>
+                <li onClick={() => handleMenuItemClick('reviews')}>Reviews</li>
             </ul>
         </div>
     )

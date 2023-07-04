@@ -10,7 +10,7 @@ import { GiWeightLiftingUp } from 'react-icons/gi'
 const HeroComponent = () => {
     const transition = { type: 'spring', duration: 3 };
     return (
-        <div className="hero-container">
+        <div className="hero-container" id='home'>
             <div className="app-blur hero-blur"></div>
             <div className="left-hero-content">
                 <HeaderComponent />
