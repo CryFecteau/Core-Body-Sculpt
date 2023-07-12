@@ -1,6 +1,7 @@
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center
 }
 
 .header-logo {
@@ -11,11 +12,53 @@
     list-style: none;
     display: flex;
     gap: 2rem;
-    font-size: 1rem;
+    font-size: clamp(1rem, 1vw, 1.2rem);
     font-weight: bold;
+    padding-right: 1rem;
 }
 
-.header-menu>li:hover {
+.header-menu-small {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.header-menu-small-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu>li:hover,
+.header-menu-small-list>li:hover {
     cursor: pointer;
     color: var(--orange);
+}
+
+.menu-box {
+    position: absolute;
+    background: rgb(78, 78, 78);
+    border: 3px solid black;
+    border-radius: 5px;
+    right: 3rem;
+    top: 4rem;
+    z-index: 99;
+    padding: 1rem;
+    box-shadow: var(--boxShadow);
+}
+
+@media screen and (max-width: 768px) {
+    .header-menu {
+        display: none;
+    }
+
+    .header-menu-small {
+        display: block;
+        padding-right: 3rem;
+    }
 }

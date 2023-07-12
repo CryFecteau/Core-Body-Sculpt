@@ -1,12 +1,13 @@
 .join-container {
     display: flex;
-    padding: 2rem;
+    padding: 5rem;
     gap: 10rem;
+    align-items: center;
 }
 
 .join-left-side-content {
     flex: 1 1;
-    font-size: 3rem;
+    font-size: clamp(2rem, 3vw, 3rem);
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
@@ -36,7 +37,7 @@
     display: flex;
     gap: 3rem;
     padding: 1rem 2rem;
-    /* width: 100%; */
+    margin-bottom: -3rem;
     background: var(--lightTeal);
     box-shadow: var(--boxShadow);
 }
@@ -47,13 +48,13 @@
     border: none;
     outline: none;
     color: black;
-    font-size: 1rem;
+    font-size: clamp(.8rem, 1vw, 1rem);
     font-weight: bold;
 }
 
 ::placeholder {
     color: black;
-    font-size: 1rem;
+    font-size: clamp(.8rem, 1vw, 1rem);
     font-weight: bold;
 }
 
@@ -61,5 +62,19 @@
     flex: 1;
     border: solid 4px var(--orange);
     background-color: white;
+    font-size: clamp(.8rem, 1vw, 1rem);
+}
 
+@media (max-width: 1200px) {
+    .join-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .join-form {
+        gap: 1rem;
+        padding: .7rem 1rem;
+    }
 }

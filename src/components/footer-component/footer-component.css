@@ -27,9 +27,12 @@
 }
 
 .footer-logo {
-    width: 10rem;
     display: flex;
     justify-content: center;
+}
+
+.footer-logo>img {
+    width: clamp(20rem, 30vw, 30rem);
 }
 
 .footer-blur-1 {

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import HeroImg from '../../assets/hero1.png';
 import HeroBackImg from '../../assets/hero2.png';
 import { BsGraphUpArrow } from 'react-icons/bs';
-import { GiWeightLiftingUp } from 'react-icons/gi'
+import { GiWeightLiftingUp } from 'react-icons/gi';
 
 const HeroComponent = () => {
     const transition = { type: 'spring', duration: 3 };
@@ -18,7 +18,7 @@ const HeroComponent = () => {
                     <motion.div
                         className='ad-background'
                         initial={{ left: '1rem' }}
-                        whileInView={{ left: '19.5rem' }}
+                        whileInView={{ left: '18rem' }}
                         transition={{ ...transition, type: 'tween' }}
                     ></motion.div>
                     <span>Empower your body, uplift your mind.</span>
@@ -77,7 +77,7 @@ const HeroComponent = () => {
                 <motion.div
                     className="hero-tip-container"
                     initial={{ right: '37rem' }}
-                    whileInView={{ right: '28rem' }}
+                    whileInView={{ right: '27rem' }}
                     transition={{ ...transition }}
                 >
                     <span id='tip-img'><BsGraphUpArrow /></span>

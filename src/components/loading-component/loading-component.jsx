@@ -17,11 +17,12 @@ export default function LoadingComponent({ hasUserEntered }) {
     return (
         <div className='loading'>
             <div className="loading-card">
-                <span className='loading-title'>Welcome to Core Body Fitness</span>
-                <span className='loading-body'>This responsive web application is a mock fitness site created to showcase React, CSS, and Framer Motion. Feel free to explore and interact with the site, but keep in
+                <p className='loading-title'>Welcome to Core Body Fitness</p>
+                <p className='loading-subheader'>React/Framer Motion/CSS</p>
+                <p className='loading-body'>This is a mock fitness site created to showcase React, Framer Motion and CSS. Feel free to explore and interact with the site, but keep in
                     mind that it's for demonstration purposes only. Thank you for visiting!
-                </span>
-                <span className='loading-subtitle'>- Crystal Fecteau </span>
+                </p>
+                <p className='loading-subtitle'>- Crystal Fecteau </p>
                 <div className='loading-footer'>
                     <div className="loader"></div>
                     <button

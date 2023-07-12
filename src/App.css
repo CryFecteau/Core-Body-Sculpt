@@ -21,7 +21,7 @@ body {
   background-color: #3c3f45;
   color: white;
   mix-blend-mode: overlay;
-  padding: 0 5rem;
+  /* padding: 0 5rem; */
 }
 
 ::-webkit-scrollbar {

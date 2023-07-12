@@ -29,7 +29,6 @@ function App() {
         </> :
         <LoadingComponent hasUserEntered={handleUserEntered} />
       }
-
     </div>
   );
 }

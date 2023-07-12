@@ -2,7 +2,7 @@
     display: flex;
     gap: 2rem;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: clamp(2rem, 3vw, 3rem);
     justify-content: center;
     text-transform: uppercase;
     font-style: italic;
@@ -107,4 +107,20 @@
 
 .member-btn:hover {
     background-color: var(--lightTeal);
+}
+
+@media (max-width: 975px) {
+    .memberships-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .memberships {
+        flex-direction: column;
+    }
+
+    .membership-card {
+        width: 25rem;
+    }
 }

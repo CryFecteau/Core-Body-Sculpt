@@ -1,7 +1,7 @@
 .reviews-container {
     display: flex;
     gap: 1rem;
-    padding: 2rem;
+    padding: 0 5rem;
 }
 
 .reviews-left-side-content {
@@ -13,15 +13,22 @@
 }
 
 .reviews-header {
-    font-size: 3rem;
+    font-size: clamp(2rem, 3vw, 3rem);
     font-weight: bold;
+}
+
+.reviews-header-bottom {
+    font-size: clamp(2rem, 3vw, 3rem);
+    font-weight: bold;
+    margin-top: -2rem;
 }
 
 .review {
     text-transform: none;
     text-align: justify;
     letter-spacing: 2px;
-    line-height: 40px;
+    line-height: 25px;
+    font-size: clamp(.8rem, 1vw, 1rem);
 }
 
 .reviews-right-side-content {
@@ -71,4 +78,21 @@
 
 #left-arrow {
     transform: scaleX(-1);
+}
+
+@media (max-width: 1000px) {
+    .reviews-container {
+        flex-direction: column;
+    }
+
+    .client-img,
+    .review-border,
+    .review-background {
+        display: none;
+    }
+
+    .review-arrows {
+        width: 95%;
+        justify-content: flex-end;
+    }
 }

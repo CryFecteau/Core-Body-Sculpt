@@ -14,7 +14,7 @@ export default function ReviewsComponent() {
         <div id='reviews' className="reviews-container">
             <div className="reviews-left-side-content">
                 <span className='app-stroke-text reviews-header'>Feedback From</span>
-                <span className='reviews-header'>Our Valued Clients</span>
+                <span className='reviews-header-bottom'>Our Valued Clients</span>
                 <motion.span
                     className='review'
                     key={selectedReview}
