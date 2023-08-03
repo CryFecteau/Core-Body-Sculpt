@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Core-Body-Sculpt/static/css/main.b05edfcf.css",
+    "main.js": "/Core-Body-Sculpt/static/js/main.a533f55a.js",
+    "static/js/787.21edc820.chunk.js": "/Core-Body-Sculpt/static/js/787.21edc820.chunk.js",
+    "static/media/hero1.png": "/Core-Body-Sculpt/static/media/hero1.37f7b4a7ed261910ea9c.png",
+    "static/media/reason3.jpg": "/Core-Body-Sculpt/static/media/reason3.0a005b58959866714e09.jpg",
+    "static/media/reason1.jpg": "/Core-Body-Sculpt/static/media/reason1.99fcd5cf2040b5ffbc5a.jpg",
+    "static/media/reason2.jpg": "/Core-Body-Sculpt/static/media/reason2.ec9de68c04515bf563f6.jpg",
+    "static/media/review3.jpg": "/Core-Body-Sculpt/static/media/review3.36b0e643f6d557972a20.jpg",
+    "static/media/reason4.jpg": "/Core-Body-Sculpt/static/media/reason4.f8bee4909ce20c73c4f1.jpg",
+    "static/media/review2.jpg": "/Core-Body-Sculpt/static/media/review2.8e009b1f588cb065b17a.jpg",
+    "static/media/review1.jpg": "/Core-Body-Sculpt/static/media/review1.42554bb1f1887cb4c0c6.jpg",
+    "static/media/hero2.png": "/Core-Body-Sculpt/static/media/hero2.9f54bfba33048f4ca688.png",
+    "index.html": "/Core-Body-Sculpt/index.html",
+    "main.b05edfcf.css.map": "/Core-Body-Sculpt/static/css/main.b05edfcf.css.map",
+    "main.a533f55a.js.map": "/Core-Body-Sculpt/static/js/main.a533f55a.js.map",
+    "787.21edc820.chunk.js.map": "/Core-Body-Sculpt/static/js/787.21edc820.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b05edfcf.css",
+    "static/js/main.a533f55a.js"
+  ]
+}
